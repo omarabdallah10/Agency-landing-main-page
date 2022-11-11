@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body , html{
+    height: 100%;
+}
+
+#header{
+    height: 100%;
+    background-image: url(./desktop/image-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+#logo{
+    margin-left: 50px;
+    font-weight: bold;
+}
+#features{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 50px;
+}
+.item{
+    font-size: small;
+}
+#btn{
+    font-family:amiri ;
+    font-weight: 900;
+    background-color: whiteblack;
+    color: black;
+    border-radius: 15px;
+    border-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#title{
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+    font-family: amiri;
+    font-size: xx-large;
+    letter-spacing: 10px;
+}
+#down-arrow{
+    text-align: center;
+    color: white;
+    /* font-family: ; */
+    font-size: xxx-large;
+    margin-top: 150px;
+}
+/* ------------------------------------------------------------------------------- */
+#second-div{
+    /* height: 50%; */
+    display: flex;
+}
+.second{
+    width: 50%;
+    /* height: 50%; */
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: flex-start; */
+    /* padding-left:200px ;
+    padding-left:12.5% ; */
+    padding-top: 10%;
+    padding-bottom: 10%;
+    justify-content: space-between;
+}
+#secondary-title{
+    font-size: xxx-large;
+}
+#description{
+    font-family:sans-serif ;
+    color: rgb(107, 107, 107);
+}
+#second-div-btn{
+    /* width: 200px; */
+    font-family: amiri;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    border: none;
+    color: black;
+}
+#second-div-btn:hover{
+    cursor: pointer;
+    border-bottom: 4px solid rgb(200, 200, 18);
+}
+#egg-img{
+    width: 100%;
+}
+/* ------------------------------------------------------------------------------- */
+#third-div{
+    /* height: 50%; */
+    display: flex;
+}
+.third{
+    width: 50%;
+}
+#third-div-btn{
+    /* width: 200px; */
+    font-family: amiri;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    border: none;
+    color: black;
+}
+#third-div-btn:hover{
+    cursor: pointer;
+    border-bottom: 4px solid rgb(255, 6, 89);
+}
+#standout-img{
+    width: 100%;
+}
+
+    /* --------------------------------------------------------------------------- */
+
+#apple-ucefy-div{
+    /* height: 50%; */
+    display: flex;
+    height: 100%;
+}
+.img-div{
+    width: 50%;
+    /* border: 1px solid black; */
+}
+#apple{
+    background-image: url(./desktop/image-graphic-design.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#apple-title{
+    padding-top: 500px;
+    color:rgb(1, 66, 1) ;
+    font-weight: bold;
+}
+#apple-des{
+    padding-bottom: 100px;
+    font-family: sans-serif;
+    color:rgb(1, 66, 1) ;
+}
+#ucefy{
+    background-image: url(./desktop/image-photography.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#ucefy-title{
+    padding-top: 500px;
+    color:rgb(9, 14, 118) ;
+    font-weight: bold;
+}
+#ucefy-des{
+    padding-bottom: 100px;
+    font-family: sans-serif;
+    color:rgb(9, 14, 118) ;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+#inner-persons-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}
+#des{
+    font-family: amiri;
+    font-weight: 900;
+    color: grey;
+    letter-spacing: 5px;
+}
+#clients{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+/* .person{
+    
+} */
+.person-img{
+    width: 50px;
+    height: 50ox;
+    border-radius: 35px;
+}
+.client-des{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+.client-des p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: grey;
+}
+.client-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.client-name h6{
+    font-family: sans-serif;
+    color: grey;
+}
+/*  -------------------------------------------------------------------------------------------*/
+#pics{
+    display: flex;
+    /* height: 30%; */
+}
+.pic{
+    width: 25%;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+#footer{
+    height: 50%;
+    background-color: rgb(113, 209, 177);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: sans-serif;
+    color: rgb(14, 97, 69);
+}
+#footer-title{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.footer-list-item:hover{
+    cursor: pointer;
+    color: aliceblue;
+}
+#footer-list{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-weight: 700;
+    color: rgb(15, 116, 82);
+}
+
+#icons{
+    display: flex;
+    gap: 40px;
+}
+.icon:hover{
+    cursor: pointer;
+    color: aliceblue;
+}
